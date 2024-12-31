@@ -12,3 +12,17 @@ proxies:
     path: "/trojan"
     headers:
       Host: nusa.lowh.site
+- name: Vls-sgvless-ip
+  server: 104.17.3.81
+  port: 443
+  type: vless
+  uuid: berlian
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg.berliantst.com
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sg.berliantst.com
