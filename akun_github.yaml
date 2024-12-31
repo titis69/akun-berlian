@@ -1,6 +1,6 @@
 proxies:
 - name: AKUN-GITNEW
-  server: vidio.xtls.my.id
+  server: 104.17.3.81
   port: 443
   type: trojan
   password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
