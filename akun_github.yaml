@@ -1,17 +1,4 @@
 proxies:
-- name: AKUN-GITNEW
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
-  network: ws
-  sni: nusa.lowh.site
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: nusa.lowh.site
 - name: Vls-sgvless-ip
   server: 104.17.3.81
   port: 443
