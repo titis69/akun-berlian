@@ -1,15 +1,14 @@
 proxies:
-- name: Vls-sgvless-ip
-  server: 104.17.3.81
+- name: Tr_sgcloud_github
+  server: sg.berliantst.com
   port: 443
-  type: vless
-  uuid: berlian
-  cipher: auto
-  tls: true
+  type: trojan
+  password: berlian
   skip-cert-verify: true
-  servername: sg.berliantst.com
+  sni: support.zoom.us
   network: ws
   ws-opts:
-    path: /vless
+    path: /trojan-ws
     headers:
       Host: sg.berliantst.com
+  udp: true
