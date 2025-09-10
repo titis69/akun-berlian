@@ -1,14 +1,14 @@
 proxies:
 - name: Tr_sgcloud_github
-  server: sg.berliantst.com
+  server: support.zoom.us
   port: 443
   type: trojan
   password: berlian
   skip-cert-verify: true
-  sni: support.zoom.us
+  sni: support.zoom.us.sg.berliantst.com
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg.berliantst.com
+      Host: support.zoom.us.sg.berliantst.com
   udp: true
