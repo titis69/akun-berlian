@@ -1,14 +1,29 @@
 proxies:
-- name: Tr_sgcloud_github
+- name: "\U0001F1F8\U0001F1EC Trojan-gt-sg"
+  type: trojan
   server: support.zoom.us
   port: 443
-  type: trojan
   password: berlian
-  skip-cert-verify: true
+  udp: true
   sni: support.zoom.us.sg.berliantst.com
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
       Host: support.zoom.us.sg.berliantst.com
+#=============vless=====================
+- name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: berlian
   udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: sg.berliantst.com
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sg.berliantst.com
