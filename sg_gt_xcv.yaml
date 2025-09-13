@@ -1,7 +1,7 @@
 proxies:
 - name: "\U0001F1F8\U0001F1EC Trojan-sg"
   type: trojan
-  server: quiz.int.vidio.com
+  server: 104.17.3.81
   port: 443
   password: berlian
   udp: true
@@ -15,7 +15,7 @@ proxies:
 #=============vless=====================
 - name: "\U0001F1F8\U0001F1EC Vless-sg"
   type: vless
-  server: 104.20.46.147
+  server: 104.17.3.81
   port: 443
   uuid: berlian
   udp: true
