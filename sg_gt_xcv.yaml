@@ -1,17 +1,18 @@
 proxies:
-- name: "\U0001F1F8\U0001F1EC Trojan-sg"
-  type: trojan
-  server: 104.17.3.81
+- name: "\U0001F1EE\U0001F1E9 Vless-umum-id"
+  type: vless
+  server: support.zoom.us
   port: 443
-  password: berlian
+  uuid: berlian
   udp: true
-  sni: sg.berliantst.com
   skip-cert-verify: true
+  tls: true
+  servername: support.zoom.us.id.berlianst.my.id
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /vless
     headers:
-      Host: sg.berliantst.com
+      Host: support.zoom.us.id.berlianst.my.id
 #=============vless=====================
 - name: "\U0001F1F8\U0001F1EC Vless-sg"
   type: vless
