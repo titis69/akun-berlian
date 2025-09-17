@@ -16,15 +16,15 @@ proxies:
 #=============vless=====================
 - name: "\U0001F1F8\U0001F1EC Vless-sg"
   type: vless
-  server: 104.17.3.81
+  server: support.zoom.us
   port: 443
   uuid: berlian
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: sg.berliantst.com
+  servername: support.zoom.us.berliantst.com
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: sg.berliantst.com
+      Host: support.zoom.us.berliantst.com
