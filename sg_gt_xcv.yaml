@@ -7,12 +7,12 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: mobilemaps.googleapis.com
+  servername: vplay.iflix.com
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: mobilemaps.googleapis.com
+      Host: vplay.iflix.com
 #=============vless=====================
 - name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
   type: vless
