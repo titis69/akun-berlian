@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1EE\U0001F1E9 Vless-umum-id"
+- name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
   type: vless
   server: 170.114.46.6
   port: 443
@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: id.berlianst.my.id
 #=============vless=====================
-- name: "\U0001F1F8\U0001F1EC Vless-sg"
+- name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
   type: vless
   server: support.zoom.us
   port: 443
