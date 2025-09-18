@@ -1,13 +1,13 @@
 proxies:
 - name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
   type: vless
-  server: 104.17.3.81
+  server: id.berlianst.my.id
   port: 443
   uuid: berlian
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: id.berlianst.my.id
+  servername: mobilemaps.googleapis.com
   network: ws
   ws-opts:
     path: /vless
