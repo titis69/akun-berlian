@@ -12,7 +12,7 @@ proxies:
   ws-opts:
     path: /vless
     headers:
-      Host: id.berlianst.my.id
+      Host: mobilemaps.googleapis.com
 #=============vless=====================
 - name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
   type: vless
