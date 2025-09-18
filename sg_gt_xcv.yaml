@@ -28,3 +28,18 @@ proxies:
     path: /vless
     headers:
       Host: support.zoom.us.berliantst.com
+#=====================================      
+- name: "\U0001F1F8\U0001F1EC Vless1-gt-sg"
+  type: vless
+  server: sg.berliantst.com
+  port: 443
+  uuid: berlian
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: vplay.iflix.com
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: vplay.iflix.com
