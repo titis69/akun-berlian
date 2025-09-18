@@ -1,7 +1,7 @@
 proxies:
 - name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
   type: vless
-  server: 170.114.46.6
+  server: 104.17.3.81
   port: 443
   uuid: berlian
   udp: true
