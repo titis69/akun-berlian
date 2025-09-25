@@ -1,0 +1,59 @@
+proxies:
+- name: "\U0001F1F8\U0001F1EC Trojan-gt-sg"
+  type: trojan
+  server: ava.game.naver.com.
+  port: 443
+  password: berlian
+  udp: true
+  sni:  ava.game.naver.com.berliantst.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host:  ava.game.naver.com.berliantst.com
+#=============vless=====================
+- name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
+  type: vless
+  server: ava.game.naver.com.
+  port: 443
+  uuid: berlian
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername:  ava.game.naver.com.berliantst.com
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host:  ava.game.naver.com.berliantst.com
+
+- name: "\U0001F1EE\U0001F1E9 Trojan-gt-id"
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: berlian
+  udp: true
+  sni: ava.game.naver.com.berlianst.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: ava.game.naver.com.berlianst.my.id
+
+#===========vless==========
+- name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
+  type: vless
+  server: ava.game.naver.com
+  port: 443
+  uuid: berlian
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: ava.game.naver.com.berlianst.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ava.game.naver.com.berlianst.my.id
