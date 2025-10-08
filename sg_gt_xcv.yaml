@@ -1,18 +1,18 @@
 proxies:
-- name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
+- name: "\U0001F1EE\U0001F1E9 Vless-baru-id"
   type: vless
-  server: id.berlianst.my.id
+  server: support.zoom.us
   port: 443
-  uuid: berlian
+  uuid: 33195839-0953-4d52-b435-bbc0e32f063f
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: vplay.iflix.com
+  servername: support.zoom.us.lewung.my.id
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: vplay.iflix.com
+      Host: support.zoom.us.lewung.my.id
 #=============vless=====================
 - name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
   type: vless
