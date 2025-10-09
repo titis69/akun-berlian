@@ -1,33 +1,31 @@
 proxies:
 - name: "\U0001F1EE\U0001F1E9 Vless-baru-id"
   type: vless
-  server: support.zoom.us
+  server: 104.17.3.81 
   port: 443
-  uuid: 33195839-0953-4d52-b435-bbc0e32f063f
+  uuid: 33d61325-ab96-48e6-8a83-873079af8ace
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: support.zoom.us.lewung.my.id
+  servername:  indo.lewung.my.id
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: support.zoom.us.lewung.my.id
-#=============vless=====================
-- name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
-  type: vless
-  server: support.zoom.us
+      Host:  indo.lewung.my.id
+- name: "\U0001F1EE\U0001F1E9 Trojan-baru-id"
+  type: trojan
+  server: 104.17.3.81 
   port: 443
-  uuid: berlian
+  password: 4aa9796a-33f3-4110-a80f-68d7a918d512
   udp: true
+  sni: indo.lewung.my.id
   skip-cert-verify: true
-  tls: true
-  servername: support.zoom.us.berliantst.com
   network: ws
   ws-opts:
-    path: /vless
+    path: /trojan-ws
     headers:
-      Host: support.zoom.us.berliantst.com
+      Host: indo.lewung.my.id
 #=====================================      
 - name: "\U0001F1F8\U0001F1EC Vless1-gt-sg"
   type: vless
