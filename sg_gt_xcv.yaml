@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1EE\U0001F1E9 Vless-baru-id"
+- name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
   type: vless
   server: 104.17.3.81 
   port: 443
@@ -13,7 +13,7 @@ proxies:
     path: /vless
     headers:
       Host:  indo.lewung.my.id
-- name: "\U0001F1EE\U0001F1E9 Trojan-baru-id"
+- name: "\U0001F1EE\U0001F1E9 Trojan-gt-id"
   type: trojan
   server: 104.17.3.81 
   port: 443
