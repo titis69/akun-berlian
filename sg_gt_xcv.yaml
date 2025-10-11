@@ -1,43 +1,30 @@
 proxies:
-- name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
-  type: vless
-  server: 104.17.3.81 
-  port: 443
-  uuid: 33d61325-ab96-48e6-8a83-873079af8ace
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername:  indo.lewung.my.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host:  indo.lewung.my.id
-- name: "\U0001F1EE\U0001F1E9 Trojan-gt-id"
+- name: "\U0001F1F8\U0001F1EC Trojan-sg"
   type: trojan
-  server: 104.17.3.81 
+  server: 104.17.3.81
   port: 443
-  password: 4aa9796a-33f3-4110-a80f-68d7a918d512
+  password: berlian
   udp: true
-  sni: indo.lewung.my.id
+  sni: sg.berliantst.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: indo.lewung.my.id
-#=====================================      
-- name: "\U0001F1F8\U0001F1EC Vless1-gt-sg"
+      Host: sg.berliantst.com
+#=============vless=====================
+- name: "\U0001F1F8\U0001F1EC Vless-sg"
   type: vless
-  server: sg.berliantst.com
+  server: 104.17.3.81 
   port: 443
   uuid: berlian
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: vplay.iflix.com
+  servername: sg.berliantst.com
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: vplay.iflix.com
+      Host: sg.berliantst.com
+
