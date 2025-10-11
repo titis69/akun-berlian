@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1F8\U0001F1EC Trojan-sg"
+- name: "\U0001F1F8\U0001F1EC Trojan-gt-sg"
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: sg.berliantst.com
 #=============vless=====================
-- name: "\U0001F1F8\U0001F1EC Vless-sg"
+- name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
   type: vless
   server: 104.17.3.81 
   port: 443
