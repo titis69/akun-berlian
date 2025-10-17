@@ -1,7 +1,7 @@
 proxies:
 proxies:
 #=========vless==========
-- name: "\U0001F1EE\U0001F1E9 Vless-baru-id"
+- name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
   type: vless
   server: 104.17.3.81
   port: 443
@@ -15,7 +15,7 @@ proxies:
     path: /vless
     headers:
       Host:  indo.berlian-cloud.my.id
-- name: Vless-indvless-WS (CDN) Non TLS
+- name: Vless-gt-WS (CDN) Non TLS
   server: 104.17.3.81
   port: 80
   type: vless
