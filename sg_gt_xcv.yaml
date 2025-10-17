@@ -1,29 +1,32 @@
 proxies:
-- name: "\U0001F1F8\U0001F1EC Trojan-gt-sg"
-  type: trojan
+proxies:
+#=========vless==========
+- name: "\U0001F1EE\U0001F1E9 Vless-baru-id"
+  type: vless
   server: 104.17.3.81
   port: 443
-  password: berlian
-  udp: true
-  sni: sg.berliantst.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sg.berliantst.com
-#=============vless=====================
-- name: "\U0001F1F8\U0001F1EC Vless-gt-sg"
-  type: vless
-  server: 104.17.3.81 
-  port: 443
-  uuid: berlian
+  uuid: ndaspuyeng
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: sg.berliantst.com
+  servername:  indo.berlian-cloud.my.id
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: sg.berliantst.com
+      Host:  indo.berlian-cloud.my.id
+- name: Vless-indvless-WS (CDN) Non TLS
+  server: 104.17.3.81
+  port: 80
+  type: vless
+  uuid: ndaspuyeng
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: indo.berlian-cloud.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: indo.berlian-cloud.my.id
+  udp: true
