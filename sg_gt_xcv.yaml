@@ -47,7 +47,7 @@ proxies:
       Host: indo.bongkok.xyz
   udp: true
 #===============================
-- name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
+- name: "\U0001F1EE\U0001F1E9 bongkokVless-gt-id"
   type: vless
   server: 104.17.3.81
   port: 443
