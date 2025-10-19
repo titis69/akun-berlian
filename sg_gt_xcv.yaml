@@ -1,35 +1,4 @@
 proxies:
-#=========1vless==========
-- name: "\U0001F1EE\U0001F1E9 Vless-gt-id"
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: ndaspuyeng
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername:  indo.berlian-cloud.my.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host:  indo.berlian-cloud.my.id
- #===============2============================
-- name: Vless-gt-WS (CDN) Non TLS
-  server: 104.17.3.81
-  port: 80
-  type: vless
-  uuid: ndaspuyeng
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: indo.berlian-cloud.my.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: indo.berlian-cloud.my.id
-  udp: true
 #===============3=============================  
 - name: bongkokVless-gt-WS (CDN) Non TLS
   server: 104.17.3.81
