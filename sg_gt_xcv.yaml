@@ -30,3 +30,34 @@ proxies:
     path: /vless
     headers:
       Host:  indo.bongkok.xyz
+#==============tes==============================
+- name: cloudVless-gt-WS (CDN) Non TLS
+  server: 104.17.3.81
+  port: 80
+  type: vless
+  uuid: ndaskumumet
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: indo.berlian-cloud.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: indo.berlian-cloud.my.id
+  udp: true
+#=============4==================
+- name: "\U0001F1EE\U0001F1E9 cloudVless-gt-id"
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: ndaskumumet
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername:  indo.berlian-cloud.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host:  indo.berlian-cloud.my.id
