@@ -1,32 +1,29 @@
 proxies:
-#===============3=============================  
-- name: bongkokVless-gt-WS (CDN) Non TLS
-  server: 104.17.3.81
-  port: 80
-  type: vless
-  uuid: ndasemumet
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: indo.bongkok.xyz
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: indo.bongkok.xyz
-  udp: true
-#=============4==================
-- name: "\U0001F1EE\U0001F1E9 bongkokVless-gt-id"
-  type: vless
+- name: "\U0001F1F8\U0001F1EC Trojan-sg"
+  type: trojan
   server: 104.17.3.81
   port: 443
-  uuid: ndasemumet
+  password: berlian
+  udp: true
+  sni: sg.berliantst.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sg.berliantst.com
+#=============vless=====================
+- name: "\U0001F1F8\U0001F1EC Vless-sg"
+  type: vless
+  server: 104.17.3.81 
+  port: 443
+  uuid: berlian
   udp: true
   skip-cert-verify: true
   tls: true
-  servername:  indo.bongkok.xyz
+  servername: sg.berliantst.com
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host:  indo.bongkok.xyz
+      Host: sg.berliantst.com
