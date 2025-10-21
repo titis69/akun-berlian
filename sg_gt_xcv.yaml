@@ -27,3 +27,33 @@ proxies:
     path: /vless
     headers:
       Host: sg.berliantst.com
+- name: bongkokVless-WS (CDN) Non TLS
+  server: 104.17.3.81
+  port: 80
+  type: vless
+  uuid: ndasemumet
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: indo.bongkok.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: indo.bongkok.xyz
+  udp: true
+#=============4==================
+- name: "\U0001F1EE\U0001F1E9 bongkokVless-id"
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: ndasemumet
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername:  indo.bongkok.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host:  indo.bongkok.xyz
