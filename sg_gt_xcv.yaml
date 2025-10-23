@@ -44,18 +44,4 @@ proxies:
     path: /vless
     headers:
       Host:  indo.bongkok.my.id
-#==========================================      
-- name: "\U0001F1EE\U0001F1E9 bongkok-VlessZomm-id"
-  type: vless
-  server: support.zoom.us
-  port: 443
-  uuid: ndasemumet
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername:  support.zoom.us.bongkok.xyz
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host:  support.zoom.us.bongkok.xyz
+
