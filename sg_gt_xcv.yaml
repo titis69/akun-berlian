@@ -30,7 +30,7 @@ proxies:
     headers:
       Host:  indo.bongkok.xyz
 #=======================================
-- name: "\U0001F1EE\U0001F1E9 bongkok-id"
+- name: "\U0001F1EE\U0001F1E9 bongkok-gt-id"
   type: vless
   server: 104.17.3.81
   port: 443
@@ -45,7 +45,7 @@ proxies:
     headers:
       Host:  indo.bongkok.my.id
 #==========================================      
-- name: "\U0001F1EE\U0001F1E9 bongkokVlessZomm-id"
+- name: "\U0001F1EE\U0001F1E9 bongkok-VlessZomm-id"
   type: vless
   server: support.zoom.us
   port: 443
