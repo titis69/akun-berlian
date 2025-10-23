@@ -29,6 +29,21 @@ proxies:
     path: /vless
     headers:
       Host:  indo.bongkok.xyz
+#=======================================
+- name: "\U0001F1EE\U0001F1E9 bongkok-id"
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: pusingmbah
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername:  indo.bongkok.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host:  indo.bongkok.my.id
 #==========================================      
 - name: "\U0001F1EE\U0001F1E9 bongkokVlessZomm-id"
   type: vless
