@@ -1,5 +1,5 @@
 proxies:
-- name: bongkokVless-WS (CDN) Non TLS
+- name: bongkokVlessGt-WS (CDN) Non TLS
   server: 104.17.3.81
   port: 80
   type: vless
@@ -15,7 +15,7 @@ proxies:
       Host: indo.bongkok.xyz
   udp: true
 #=============4==================
-- name: "\U0001F1EE\U0001F1E9 bongkokVless-id"
+- name: "\U0001F1EE\U0001F1E9 bongkokVlessGt-id"
   type: vless
   server: 104.17.3.81
   port: 443
