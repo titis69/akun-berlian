@@ -1,19 +1,18 @@
 proxies:
 #=======================================
-- name: "\U0001F1EE\U0001F1E9 bongkok-gt-id"
-  type: vless
+- name: "\U0001F1EE\U0001F1E9depokTrGt"
   server: support.zoom.us
   port: 443
-  uuid: pusingmbah
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername:  support.zoom.us.bongkok.my.id
+  type: trojan
+  password: 9c55eaed-4ed4-4c0a-b58e-0a3eadc534a6
   network: ws
+  sni: support.zoom.us.bongkok.xyz
+  skip-cert-verify: true
+  udp: true
   ws-opts:
-    path: /vless
+    path: /trojan-ws
     headers:
-      Host:  support.zoom.us.bongkok.my.id
+        Host: support.zoom.us.bongkok.xyz
 #==========================================      
 - name: "\U0001F1EE\U0001F1E9 bongkok-VlessZomm-id"
   type: vless
@@ -23,9 +22,9 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername:  support.zoom.us.bongkok.xyz
+  servername: support.zoom.us.bongkok.xyz
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host:  support.zoom.us.bongkok.xyz
+      Host: support.zoom.us.bongkok.xyz
