@@ -30,18 +30,17 @@ proxies:
     headers:
       Host:  indo.bongkok.xyz
 #=======================================
-- name: "\U0001F1EE\U0001F1E9 bongkok-gt-id"
-  type: vless
+- name: "\U0001F1EE\U0001F1E9depokTrGt"
   server: 104.17.3.81
   port: 443
-  uuid: pusingmbah
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername:  indo.bongkok.my.id
+  type: trojan
+  password: 9c55eaed-4ed4-4c0a-b58e-0a3eadc534a6
   network: ws
+  sni: indo.bongkok.xyz
+  skip-cert-verify: true
+  udp: true
   ws-opts:
-    path: /vless
+    path: /trojan-ws
     headers:
-      Host:  indo.bongkok.my.id
+        Host: indo.bongkok.xyz
 
