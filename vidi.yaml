@@ -1,1 +1,33 @@
+proxies:
+#===========trojan==========
+- name: "\U0001F1EE\U0001F1E9vidi-sgTr1"
+  server: 104.18.1.196
+  port: 443
+  type: trojan
+  password: 9c55eaed-4ed4-4c0a-b58e-0a3eadc534a6
+  network: ws
+  sni: indo.bongkok.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: indo.bongkok.xyz
+#===============vmess================
+- name: "\U0001F1EE\U0001F1E9vidi-sg1-vless"
+  type: vmess
+  server: 104.18.1.196
+  port: 443
+  uuid: ndasepusing
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: indo.bongkok.xyz
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: indo.bongkok.xyz
 
