@@ -1,4 +1,20 @@
 proxies:
+- name: "\U0001F1EE\U0001F1E9milaVmess"
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  uuid: berlianku
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: coba.lewung.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: coba.lewung.my.id
 #===========trojan==========
 - name: "\U0001F1EE\U0001F1E9depokTrGt"
   server: 104.17.3.81
