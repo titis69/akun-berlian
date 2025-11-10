@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1EE\U0001F1E9vidi-sg1-milatrojan"
+- name: "\U0001F1EE\U0001F1E9-milatrojan"
   server: 104.17.3.81
   port: 443
   type: trojan
