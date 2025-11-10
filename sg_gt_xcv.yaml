@@ -1,4 +1,17 @@
 proxies:
+- name: "\U0001F1EE\U0001F1E9vidi-sg1-milatrojan"
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: lancarjaya
+  network: ws
+  sni: coba.lewung.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: coba.lewung.my.id
 - name: "\U0001F1EE\U0001F1E9milaVmess"
   type: vmess
   server: 104.17.3.81
