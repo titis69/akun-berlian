@@ -4,15 +4,15 @@ proxies:
   server: 104.18.1.196
   port: 443
   type: trojan
-  password: lewung
+  password: semogalancar
   network: ws
-  sni: wong.berlian-cloud.my.id
+  sni: vpn.berlian-cloud.my.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-ws
     headers:
-        Host: wong.berlian-cloud.my.id
+        Host: vpn.berlian-cloud.my.id
 #===============vmess================
 - name: "\U0001F1EE\U0001F1E9vidi-kembarSg_vmess"
   type: vmess
