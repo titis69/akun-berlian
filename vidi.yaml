@@ -14,22 +14,22 @@ proxies:
     headers:
         Host: indo.bongkok.xyz
 #===============vmess================
-- name: "\U0001F1EE\U0001F1E9vidi-sg1-vless"
+- name: "\U0001F1EE\U0001F1E9vidi-kembarSg_vless"
   type: vmess
   server: 104.18.1.196
   port: 443
-  uuid: ndasepusing
+  uuid: kembarprasetyo
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: indo.bongkok.xyz
+  servername: wong.berlian-cloud.my.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: indo.bongkok.xyz
+      Host: wong.berlian-cloud.my.id
 #==========================================
 # Format Trojan GO/WS
 - name: "\U0001F1EE\U0001F1E9vidi-sg1-milatrojan"
