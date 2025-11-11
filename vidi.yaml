@@ -14,10 +14,10 @@ proxies:
     headers:
         Host: indo.bongkok.xyz
 #===============vmess================
-- name: "\U0001F1EE\U0001F1E9vidi-kembarSg_vless"
+- name: "\U0001F1EE\U0001F1E9vidi-kembarSg_vmess"
   type: vmess
   server: 104.18.1.196
-  port: 443
+  port: 8443
   uuid: kembarprasetyo
   alterId: 0
   cipher: auto
