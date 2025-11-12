@@ -1,5 +1,4 @@
 proxies:
-support.zoom.us
 - name: "\U0001F1EE\U0001F1E9-milatrojanwd"
   server: support.zoom.us
   port: 443
