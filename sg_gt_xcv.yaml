@@ -41,7 +41,3 @@ proxies:
     path: /vmess
     headers:
       Host: coba.lewung.my.id
-
-    headers:
-      Host: indo.bongkok.xyz
-
