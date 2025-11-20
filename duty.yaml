@@ -1,0 +1,29 @@
+proxies:
+- name: "\U0001F1F8\U0001F1EC Trojan-sg"
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: berlian
+  udp: true
+  sni: sg.berliantst.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sg.berliantst.com
+#=============vless=====================
+- name: "\U0001F1F8\U0001F1EC Vless-sg"
+  type: vless
+  server: 104.20.46.147
+  port: 443
+  uuid: berlian
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: sg.berliantst.com
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sg.berliantst.com
