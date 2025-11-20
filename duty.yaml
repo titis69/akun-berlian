@@ -1,5 +1,5 @@
 proxies:
-- name: Vmesduty
+- name: "\U0001F1EE\U0001F1E9Vmesduty"
   type: vmess
   server: coba.lewung.my.id
   port: 443
