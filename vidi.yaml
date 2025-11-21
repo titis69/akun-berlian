@@ -13,23 +13,6 @@ proxies:
     headers:
         Host: kembar.berliantst.com
 
-- name: Vmess-tiyo_Gt-WS TLS
-  type: vmess
-  server: 104.18.1.196
-  port: 443
-  uuid: mumetmbah
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bocah.berlian-cloud.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: bocah.berlian-cloud.my.id
-
 #======================================
 
 - name: Vmess-milaVmess-WS TLS
