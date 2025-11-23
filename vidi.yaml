@@ -29,7 +29,7 @@ proxies:
     path: /vmess
     headers:
       Host: vpn.berlian.web.id
-
+#=============  cadangan  =================
 - name: "\U0001F1EE\U0001F1E9vidi-sg1-milatrojan"
   server: 104.18.1.196
   port: 443
@@ -43,8 +43,6 @@ proxies:
     path: /trojan-ws
     headers:
         Host: kembar.berliantst.com
-
-#======================================
 
 - name: Vmess-milaVmess-WS TLS
   type: vmess
