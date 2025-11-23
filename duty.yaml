@@ -1,4 +1,21 @@
 proxies:
+- name: "\U0001F1EE\U0001F1E9vidi-gt-vmlewung"
+  type: vmess
+  server: vpn.berlian.web.id
+  port: 443
+  uuid: manganterus
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: profile.activision.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: vpn.berlian.web.id
+
 - name: "\U0001F1EE\U0001F1E9vidi-sg1-milatrojan"
   server: kembar.berliantst.com
   port: 443
