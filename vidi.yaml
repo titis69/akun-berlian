@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1EE\U0001F1E9lewungTrId-gt"
+- name: "\U0001F1EE\U0001F1E9 lewungTrId-gt"
   server: 104.18.1.196
   port: 443
   type: trojan
@@ -13,7 +13,7 @@ proxies:
     headers:
         Host: vpn.berlian.web.id
 
-- name: "\U0001F1EE\U0001F1E9lewungVmId-gt"
+- name: "\U0001F1EE\U0001F1E9l lewungVmId-gt"
   type: vmess
   server: 104.18.1.196
   port: 443
@@ -30,7 +30,7 @@ proxies:
     headers:
       Host: vpn.berlian.web.id
 #=============  cadangan  =================
-- name: "\U0001F1EE\U0001F1E9lewungTrSg-gt"
+- name: "\U0001F1F8\U0001F1EC lewungTrSg-gt"
   server: 104.18.1.196
   port: 443
   type: trojan
@@ -44,7 +44,7 @@ proxies:
     headers:
         Host: sg.lewung.my.id
 
-- name: "\U0001F1EE\U0001F1E9lewungVmSg-gt"
+- name: "\U0001F1F8\U0001F1EC lewungVmSg-gt"
   type: vmess
   server: 104.18.1.196
   port: 443
