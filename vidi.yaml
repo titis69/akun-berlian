@@ -63,37 +63,7 @@ proxies:
     headers:
       Host: sg.lewung.my.id
 
-# ======= Edukasi =========      
-- name: "\U0001F1F8\U0001F1EC lewungTrSgEdu-gt"
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: sarmila
-  network: ws
-  sni: sg.lewung.my.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: sg.lewung.my.id
 
-- name: "\U0001F1F8\U0001F1EC lewungVmSgEdu-gt"
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: sarmila
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sg.lewung.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg.lewung.my.id
 
 
 
