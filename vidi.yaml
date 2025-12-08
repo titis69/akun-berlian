@@ -29,37 +29,7 @@ proxies:
     path: /vmess
     headers:
       Host: vpn.berlian.web.id
-#============= edukasi ===========
-- name: "\U0001F1EE\U0001F1E9 lewungTrIdEdu-gt"
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: lilikprihatiningsih
-  network: ws
-  sni: vpn.berlian.web.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: vpn.berlian.web.id
 
-- name: "\U0001F1EE\U0001F1E9l lewungVmIdEdu-gt"
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: lilikprihatiningsih
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vpn.berlian.web.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: vpn.berlian.web.id      
       
 #=============  cadangan  =================
 - name: "\U0001F1F8\U0001F1EC lewungTrSg-gt"
