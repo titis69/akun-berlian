@@ -42,7 +42,22 @@ proxies:
   ws-opts:
     path: /trojan-ws
     headers:
-        Host: vpn.berlian.web.id      
+        Host: vpn.berlian.web.id    
+- name: "\U0001F1EE\U0001F1E9 sopi-gt"
+  server: 104.18.56.56
+  port: 443
+  type: trojan
+  password: lilikprihatiningsih
+  network: ws
+  sni: vpn.berlian.web.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: vpn.berlian.web.id    
+
+        
 #=============  cadangan  =================
 - name: "\U0001F1F8\U0001F1EC lewungTrSg-gt"
   server: 104.18.1.196
