@@ -13,7 +13,7 @@ proxies:
     headers:
         Host: vpn.berlian.web.id
 
-- name: "\U0001F1EE\U0001F1E9l lewungVmId-gt"
+- name: "\U0001F1EE\U0001F1E9l edu-VmId-gt"
   type: vmess
   server: 104.17.3.81
   port: 443
