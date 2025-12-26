@@ -1,5 +1,5 @@
 proxies:
-- name: "\U0001F1EE\U0001F1E9 lewungTrId-gt"
+- name: "\U0001F1EE\U0001F1E9 lewungWA-TrId-gt"
   server: 104.18.1.196
   port: 443
   type: trojan
